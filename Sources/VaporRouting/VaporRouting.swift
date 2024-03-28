@@ -80,5 +80,8 @@ where Router.Input == URLRequestData {
 //     case .onboarding: return nil
 //     case .signIn: return BasicAuthMiddleware()
 //     default: return BearerAuthMiddleware()
+//   },
+//   use: { request, route in
+//     // route handline
 //   }
 // )
